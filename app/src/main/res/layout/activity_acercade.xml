@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcercadeActivity">
+
+    <ScrollView
+        android:layout_width="329dp"
+        android:layout_height="614dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imagenpro"
+                android:layout_width="match_parent"
+                android:layout_height="152dp"
+                android:contentDescription="@string/proyec"
+                app:srcCompat="@drawable/calculadora" />
+
+            <TextView
+                android:id="@+id/proyecto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/namepro1"
+                android:textSize="65sp" />
+
+            <TextView
+                android:id="@+id/calculador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/proyec1"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/version"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/creador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/des"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/grup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grad"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/asigna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/asig"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/doc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/doc"
+                android:textSize="30sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Proyecto Calculadora FJJJ</string>
+    <string name="proyec">Calculadora </string>
+    <string name="basica">Básica</string>
+    <string name="namepro">Proyecto</string>
+    <string name="Tema">Operaciones Básicas</string>
+    <string name="opcionsuma">1- SUMAR</string>
+    <string name="opcionresta">2- RESTAR</string>
+    <string name="opcionmultiplicacion">3- MULTIPLICAR</string>
+    <string name="opciondivision">4- DIVISIÓN</string>
+    <string name="opcionacercade">5- ACERCA DE</string>
+    <string name="instrucciones">Escribe la opción que necesites y después presiona enviar, si tu opción es 6 o mayor no ingresaras a ninguna pantalla</string>
+    <string name="Ingresaopcion">Ingresa la opción de tu interes</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="Ingresanumero">Ingresa tu primer número</string>
+    <string name="Ingresanumero2">Ingresa tu segundo número</string>
+    <string name="mas"> + </string>
+    <string name="btnsuma"> Presiona para sumar </string>
+    <string name="namepro1">Proyecto:</string>
+    <string name="proyec1">Calculadora Básica</string>
+
+
+    <string name="des">Desarrollador: Francisco Javier Jiménez Jaimes</string>
+    <string name="andyimg">andyimg</string>
+    <string name="version">Versión:                                                                           1.0</string>
+    <string name="grad">Grupo: 7T11</string>
+    <string name="asig">Asignatura: Desarrollo de aplicaciones para dispositivos móviles</string>
+    <string name="doc">Docente: Victor Hugo de la o Martínez</string>
+
+
+
+</resources>

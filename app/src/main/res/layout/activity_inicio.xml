@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6e6e6e"
+    tools:context=".InicioActivity">
+
+    <ScrollView
+        android:layout_width="348dp"
+        android:layout_height="563dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tema"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="casual"
+                android:text="@string/Tema"
+                android:textColor="#00ff00"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/opcionsuma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/opcionsuma"
+                android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tema" />
+
+            <TextView
+                android:id="@+id/opcionresta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcionresta"
+                android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/opcionsuma" />
+
+            <TextView
+                android:id="@+id/opcionmultiplicar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcionmultiplicacion"
+                android:textSize="45sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/opcionresta" />
+
+            <TextView
+                android:id="@+id/opciondivision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opciondivision"
+                android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/opcionmultiplicar" />
+
+            <TextView
+                android:id="@+id/opcionacercade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/opcionacercade"
+                android:textSize="50sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/opciondivision" />
+
+            <TextView
+                android:id="@+id/inst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/instrucciones"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/opcionacercade" />
+
+            <EditText
+                android:id="@+id/teclado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ems="10"
+                android:hint="@string/Ingresaopcion"
+                android:inputType="phone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/opcionsalir" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/botonaccion"
+                    android:layout_width="189dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="96dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="112dp"
+                    android:layout_marginBottom="0dp"
+                    android:text="@string/enviar"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
